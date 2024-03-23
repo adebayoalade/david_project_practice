@@ -141,12 +141,13 @@ main div:first-of-type h1 {
 .juadeb_form input {
   border: 1px solid var(--main_blue_faded);
   width: 87%;
+  align-items: center;
 }
 
 .juadeb_form button {
   background-color: var(--main_green);
   color: #fff;
-  width: 100%;
+  width: 95%;
 }
 
 .juadeb_form input,
@@ -154,8 +155,7 @@ main div:first-of-type h1 {
   height: 50px;
   border-radius: 999px;
   padding: 0 28px;
-}
-
+};
 form span {
   width: 100%;
   margin-top: 0px;
