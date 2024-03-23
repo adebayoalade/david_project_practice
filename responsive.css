@@ -20,21 +20,24 @@
   main div:first-of-type h1 {
     text-align: center;
     font-size: 40px;
+    margin: auto;
     margin-bottom: 2.5rem;
+    width: 100%;
   }
   .juadeb_form {
     align-items: center;
     justify-content: center;
 
-    width: 87vw;
+    width: 80vw;
   }
   .juadeb_form input,
   .juadeb_form button {
     height: 50px;
     border-radius: 999px;
     padding: 0 28px;
+    display: block;
+    margin: auto;
   }
-
   .juadeb_form input::placeholder {
     font-size: 14px;
   }
@@ -71,8 +74,7 @@
   .juadeb_form {
     align-items: center;
     justify-content: center;
-
-    width: 87vw;
+    width: 90vw;
   }
   .juadeb_form input,
   .juadeb_form button {
@@ -80,11 +82,9 @@
     border-radius: 999px;
     padding: 0 28px;
   }
-
   .juadeb_form input::placeholder {
     font-size: 14px;
   }
-
   main div:last-of-type p {
     width: 100%;
     text-align: center;
@@ -96,4 +96,4 @@
     padding: 3rem;
   }
 }
-/* Resp Design */
+/* Resp Design */

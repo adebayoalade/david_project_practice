@@ -25,6 +25,7 @@ ul {
 body {
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
   box-sizing: border-box;
   padding: 4rem 10rem;
   min-height: 100vh;
@@ -117,13 +118,15 @@ main .post_css img:last-of-type {
 main div:last-of-type p {
   font-size: 18px;
   color: var(--main_blue_faded);
-  width: 45%;
+  width: 320px;
 }
 
 main div:first-of-type h1 {
   color: var(--main_blue);
-  font-size: 58px;
-  margin-bottom: 5rem;
+  font-size: 38px;
+  width: 600px;
+  margin-top: 0px;
+  margin-bottom: 3rem;
 }
 
 .juadeb_form {
@@ -137,7 +140,7 @@ main div:first-of-type h1 {
 
 .juadeb_form input {
   border: 1px solid var(--main_blue_faded);
-  width: 90%;
+  width: 87%;
 }
 
 .juadeb_form button {
@@ -148,7 +151,7 @@ main div:first-of-type h1 {
 
 .juadeb_form input,
 .juadeb_form button {
-  height: 60px;
+  height: 50px;
   border-radius: 999px;
   padding: 0 28px;
 }
@@ -168,4 +171,7 @@ form {
 }
 
 /* Main Styling */
+
+
+
 
